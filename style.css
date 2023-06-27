@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Italianno&family=Itim&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header img{
+    width: 100%;
+}
+
+nav{
+    text-align: center;
+    padding: 15px;
+}
+
+nav a{
+    color: #B38B6D;
+    font-family: 'Itim', cursive;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+#baixar a:hover,
+#baixar a:active,
+#info a:hover,
+#info a:active {
+    color: #503018;
+}
+
+h2, h1{
+    color: #503018;
+    font-family: 'Italianno', cursive;
+    font-size: 96px;
+    text-align: center;
+}
+
+h2{
+    font-size: 80px;
+    text-align: left;
+}
+
+p, li{
+    font-family: 'Inder', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+main,
+#vida,
+#obras,
+#baixar,
+#info{
+    padding: 20px;
+}
+
+.container,
+.container1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#obras img{
+    width: 24%;
+    margin-top: 10px;
+}
+
+.container1{
+    margin-top: 25px;
+}
+
+li{
+    list-style: none;
+}
+
+.card{
+    background-color: #B38B6D;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#baixar a,
+#info a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #B38B6D;
+    padding: 20px;
+}
+
+footer p{
+    text-align: center;
+}
+
+
